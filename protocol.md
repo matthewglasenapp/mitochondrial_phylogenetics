@@ -42,6 +42,8 @@ Scroll back to the top of the bag. In the top right corner, select “Send to”
   Under “Format”,choose “FASTA”
   Under “Sort by,” select “Taxonomy ID” 
   Click “Create File”
+ 
+<img width="258" alt="ncbi" src="https://user-images.githubusercontent.com/60276545/221434645-19b97334-1c7d-4261-9aca-768a4018d2a1.png">
 
 Move the file to your phylogenetics_lab folder and rename it “sequences.fasta”. Open the file using a text editor such as TextEdit. This file contains all of the unaligned mitochondrial genomes in FASTA format. There is one more sequence we need to add. It is on Canvas, name “fragilis.fasta.” Download this file from Canvas to your phylogenetics_lab folder. Open terminal and run the following command:
 
@@ -95,6 +97,7 @@ Let’s visualize the tree. We will use a web browser tool called Interactive Tr
 The tree looks funky because it is not rooted. We will have iTOL root the tree at the midpoint (on the longest branch). On the menu bar on the right, click the “Advanced” tab. At the bottom of the menu bar, select “Midpoint root.” Let’s display our bootstrap values and make the tree easier to read. While still on the “Advanced” tab, under “Boostraps / metada:” select “Display.” 
 
 A phylogenetic tree built from nuclear protein-coding genes is shown below. 
+![figure_1](https://user-images.githubusercontent.com/60276545/221434462-fb302fbf-b575-4668-908e-a7c985f9a8af.svg)
 
 # Discussion Questions
 1)	Are there any differences between the tree built from nuclear DNA and the tree built from mitochondrial DNA? 
