@@ -101,7 +101,7 @@ Let’s visualize the tree. We will use a web browser tool called Interactive Tr
 The tree looks funky because it is not rooted. Let's make some formatting changes
 
 1) We will have iTOL root the tree at the midpoint (on the longest branch). On the menu bar on the right, click the “Advanced” tab. At the bottom of the menu bar, select “Midpoint root.” 
-2) Let’s display our bootstrap values and make the tree easier to read. While still on the “Advanced” tab, under “Boostraps / metada:” select “Display.” A new menu bar will pop up. Change “Symbol” to “Text” and increase the font size. 
+2) Let’s display our bootstrap values. While still on the “Advanced” tab, under “Boostraps / metada:” select “Display.” A new menu bar will pop up. Change “Symbol” to “Text” and increase the font size. 
 3) Under the “Basic” tab, under “Label options,” for “Position,” select “At tips.”
 
 A phylogenetic tree built from nuclear protein-coding genes is shown below:
