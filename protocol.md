@@ -67,7 +67,7 @@ The reformat.sh script changes the sequence names slightly to be more readable a
 Before we can make a phylogenetic tree from the sequences, we need to align them. We will use a program called Clustal Omega. Align the sequences with the following command. 
 
 ```
-clustalo -i reformatted_sequences.fasta -o aligned_sequences.fasta --threads=6 -v
+./clustal-omega-1.2.3-macosx -i reformatted_sequences.fasta -o aligned_sequences.fasta --threads=6 -v
 ```
 
 Command Options Explained:
@@ -83,7 +83,7 @@ Open the new file, aligned_sequences.fasta in a text editor. How is this new fil
 Now that we’ve aligned the sequences, let’s build a phylogenetic tree and see how they’re related. Run the following command:
 
 ```
-iqtree -s aligned_sequences.fasta -m MFP -B 1000 -T 6
+iqtree-2.2.0-MacOSX/bin/iqtree2 -s aligned_sequences.fasta -m MFP -B 1000 -T 6
 ```
 
 Command Options Explained:
