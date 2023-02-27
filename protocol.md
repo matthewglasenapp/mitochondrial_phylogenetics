@@ -9,6 +9,7 @@ Move the “iqtree-2.2.0-MacOSX” folder into your “phylogenetics_lab” fold
 Open terminal and test the following command:
 
 ```
+cd Desktop/phylogenetics_lab/
 iqtree-2.2.0-MacOSX/bin/iqtree2
 ```
 
@@ -18,7 +19,6 @@ Move the file “clustal-omega-1.2.3-macosx” into your “phylogenetics_lab”
 Open terminal and run the following commands:
 
 ```
-cd Desktop/phylogenetics_lab/
 chmod a+x clustal-omega-1.2.3-macosx
 ./clustal-omega-1.2.3-macosx
 ```
